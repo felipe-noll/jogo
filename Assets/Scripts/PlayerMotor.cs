@@ -31,6 +31,7 @@ public class PlayerMotor : MonoBehaviour
         playerVelocity.y += gravity * Time.deltaTime;
         if (isGrounded && playerVelocity.y < 0)
             playerVelocity.y = -2f;
+        if (playerVelocity.y < -10f) playerVelocity.y = -10f; // Limita a velocidade de queda máxima
         controller.Move(playerVelocity * Time.deltaTime);
     }
     public void Jump()

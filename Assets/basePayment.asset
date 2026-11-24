@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2068ed173a296454eb540e98592ea5ef, type: 3}
+  m_Name: basePayment
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  patientName: Paciente 01
+  basePayment: 300
+  bonusPerfect: 50
+  rewardTartar: 2.5
+  rewardCavity: 2
+  pTongue: 15
+  pGum: 8
+  pUnrepairedTooth: 1
+  pExcessMassa: 2
+  pTartarBroken: 1.5
+  pUnfixedCavity: 2
+  pTartarLeft: 1

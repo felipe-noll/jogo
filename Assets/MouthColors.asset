@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e591930d1f479a4095a18d11149ba40, type: 3}
+  m_Name: MouthColors
+  m_EditorClassIdentifier: Assembly-CSharp::RegionColorRules
+  rules:
+  - region: 1
+    rgb: {r: 0.9882353, g: 0.98039216, b: 0.9490196, a: 0}
+    tolerance: 0.01
+  - region: 2
+    rgb: {r: 0.28627452, g: 0.21176471, b: 0.11764706, a: 0}
+    tolerance: 0
+  - region: 3
+    rgb: {r: 1, g: 0.9529412, b: 0.7019608, a: 0}
+    tolerance: 0
+  - region: 4
+    rgb: {r: 0.8117647, g: 0.09019608, b: 0.2627451, a: 0}
+    tolerance: 0.272
+  - region: 5
+    rgb: {r: 0.96862745, g: 0.5803922, b: 0.6627451, a: 0}
+    tolerance: 0.01
